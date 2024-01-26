@@ -39,4 +39,15 @@ fatal: unable to auto-detect email address (got 'User@DESKTOP-5NGLC1U.(none)')
 
     - resolved: 
         git config --global user.email "adarsha4467@gmail.com"
-        git config --global user.name "AdarshaChannappa"      
+        git config --global user.name "AdarshaChannappa"  
+
+    - then added remote repo 
+        https://github.com/Adarshachannappa/testing-networking-types.git
+    - finally pushed the code to git repo - testing-networking-types   
+***Standard git commands to push the code to git repository***
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Adarshachannappa/testing-networking-types.git
+git push -u origin main
