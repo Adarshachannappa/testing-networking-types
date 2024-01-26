@@ -40,7 +40,7 @@ fatal: unable to auto-detect email address (got 'User@DESKTOP-5NGLC1U.(none)')
     - resolved: 
         git config --global user.email "adarsha4467@gmail.com"
         git config --global user.name "AdarshaChannappa"  
-
+    - Again tried to commit: git commit -m "created client & server - express js"   (uff it worked!!)
     - then added remote repo 
         https://github.com/Adarshachannappa/testing-networking-types.git
     - finally pushed the code to git repo - testing-networking-types   
@@ -51,3 +51,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Adarshachannappa/testing-networking-types.git
 git push -u origin main
+
+    -   next time when you push the code
+       git add .  (it moves all the changed/update files to staged area from working directory(vs code))
+       git status (it gives information about which files are staged) 
+       git commit -m "readme updates"   (it commits all the staged files into local git repo)
+       git push origin main  (it pushses all the file chanes to github repo)
