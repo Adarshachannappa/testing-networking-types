@@ -45,12 +45,12 @@ fatal: unable to auto-detect email address (got 'User@DESKTOP-5NGLC1U.(none)')
         https://github.com/Adarshachannappa/testing-networking-types.git
     - finally pushed the code to git repo - testing-networking-types   
 ***Standard git commands to push the code to git repository***
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Adarshachannappa/testing-networking-types.git
-git push -u origin main
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/Adarshachannappa/testing-networking-types.git
+- git push -u origin main
 
     -   next time when you push the code
        git add .  (it moves all the changed/update files to staged area from working directory(vs code))
