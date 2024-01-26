@@ -52,8 +52,8 @@ fatal: unable to auto-detect email address (got 'User@DESKTOP-5NGLC1U.(none)')
 - git remote add origin https://github.com/Adarshachannappa/testing-networking-types.git
 - git push -u origin main
 
-    -   next time when you push the code
-       git add .  (it moves all the changed/update files to staged area from working directory(vs code))
-       git status (it gives information about which files are staged) 
-       git commit -m "readme updates"   (it commits all the staged files into local git repo)
-       git push origin main  (it pushses all the file chanes to github repo)
+-   next time when you push the code
+    - git add .  (it moves all the changed/update files to staged area from working directory(vs code))
+    - git status (it gives information about which files are staged) 
+    - git commit -m "readme updates"   (it commits all the staged files into local git repo)
+    - git push origin main  (it pushses all the file chanes to github repo)
