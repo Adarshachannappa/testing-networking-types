@@ -1,0 +1,18 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Test Polling ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "Adarsha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
